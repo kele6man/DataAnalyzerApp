@@ -51,7 +51,7 @@ class DataAnalyzerApp(QMainWindow):
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Error reading file {file}: {e}")
         return None
-    def randum_colors(self, n):
+    def random_colors(self, n):
         import random
         """Generate a list of n random hex color codes."""
         if n <= 0:
@@ -178,7 +178,7 @@ class DataAnalyzerApp(QMainWindow):
             elif chart_type == "Pie Chart":
                 value_counts.plot(
                     kind="pie", autopct="%1.1f%%",
-                    colors= self.randum_colors(len(value_counts))
+                    colors= self.random_colors(len(value_counts))
                 )
                 plt.ylabel("")
                 plt.title(f"Pie Chart of {col}")
