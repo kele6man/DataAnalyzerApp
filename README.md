@@ -55,7 +55,7 @@ cd DataAnalyzerApp
 
 2. Install dependencies:
 
-```bash
+```cmd
 pip install -r requirements.txt
 ```
 
