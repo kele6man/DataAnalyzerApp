@@ -48,7 +48,7 @@ DataAnalyzerApp is a desktop GUI application built with **Python + PyQt6** that 
 
 1. Clone the repository:
 
-```bash
+```shell
 git clone https://github.com/kele6man/DataAnalyzerApp.git
 cd DataAnalyzerApp
 ```
