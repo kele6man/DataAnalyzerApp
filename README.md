@@ -55,13 +55,13 @@ cd DataAnalyzerApp
 
 2. Install dependencies:
 
-```cmd
+```shell
 pip install -r requirements.txt
 ```
 
 3. Run the app:
 
-```bash
+```shell
 python main.py
 ```
 
@@ -71,13 +71,13 @@ python main.py
 
 ### 1. Build the container:
 
-```bash
+```shell
 docker build -t data-analyzer-app .
 ```
 
 ### 2. Run (Linux):
 
-```bash
+```shell
 sudo xhost +local:docker
 sudo docker run -e DISPLAY=$DISPLAY \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
@@ -86,7 +86,7 @@ sudo docker run -e DISPLAY=$DISPLAY \
 
 ### 2. Run (macOS with XQuartz):
 
-```bash
+```shell
 xhost + 127.0.0.1
 docker run -e DISPLAY=host.docker.internal:0 \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
