@@ -12,7 +12,10 @@ DataAnalyzerApp is a desktop GUI application built with **Python + PyQt6** that 
 
 ## 📸 Preview
 
-> (Add screenshot if desired)
+> Main window:
+> ![screenshots/main_window.png](https://github.com/kele6man/DataAnalyzerApp/blob/main/screenshots/main_window.png?raw=true)
+> Pie Scheme:
+> ![screenshots/main_window.png](https://github.com/kele6man/DataAnalyzerApp/blob/main/screenshots/pie.png?raw=true)
 
 ---
 
