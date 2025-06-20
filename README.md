@@ -2,7 +2,7 @@
 
 DataAnalyzerApp is a desktop GUI application built with **Python + PyQt6** that allows:
 
-* Importing  **CSV** , **Excel (.xls, .xlsx)** and **ODS (.ods)** files
+* Importing  **CSV** , **Excel (.xls, .xlsx)** and **ODS (.ods)**, **LibreOffice** and open **office** files
 * Visualizing data using  **bar** ,  **pie** , or **comparison** charts
 * Selecting columns via checkboxes
 * Previewing file content in a table
